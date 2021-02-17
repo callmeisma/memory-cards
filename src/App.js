@@ -1,21 +1,45 @@
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import CardContainer from "./components/CardContainer";
+import HeaderScore from "./components/HeaderScore.js"; 
 
-function App() {
+const App = () => {
+  const [highScore, setHighScore] = useState(0);
+  const [score, setScore] = useState(0);
+  const [cardsArr, setCardsArray] = useState([]);
+
+  function handleIncrement() {
+    setScore(score + 1);
+  };
+
+  function handleHighScore() {
+    setHighScore(score);
+  };
+
+  function handleCard(card) {
+    setCardsArray((prevArray) => [...prevArray, card]);
+  };
+
+  function resetScore() {
+    setScore(0);
+    setCardsArray([]);
+  };
+
+  function handleGameLogic(card) {
+    if (!cardsArr.includes(card)) {
+      handleCard(card);
+      handleIncrement();
+    } else {
+      handleHighScore();
+      resetScore();
+    }
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <HeaderScore score={score} highScore={highScore} />
+      <CardContainer handleGameLogic={handleGameLogic} score={score} highScore={highScore}/>
+      <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
     </div>
   );
 }
