@@ -30,7 +30,7 @@ const CardContainer = (props) => {
             className="card"
             onClick={props.handleGameLogic.bind(this, card.name)}
           >
-            <i className={card.image}></i>
+            <img src={card.image}></img>
             <h3>
               <strong>{card.name}</strong>
             </h3>

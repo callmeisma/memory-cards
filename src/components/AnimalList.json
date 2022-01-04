@@ -1,50 +1,50 @@
 [
     {
-        "name": "Cat",
-        "image": "fas fa-cat"       
+        "name": "Bear",
+        "image": "https://img.icons8.com/cotton/50/000000/bear.png"       
     },
     {
-        "name": "Crow",
-        "image": "fas fa-crow"         
+        "name": "Jellyfish",
+        "image": "https://img.icons8.com/cotton/50/000000/jellyfish--v2.png"         
+    },
+    {
+        "name": "Crab",
+        "image": "https://img.icons8.com/cotton/50/000000/crab--v1.png"       
     },
     {
         "name": "Dog",
-        "image": "fas fa-dog"       
+        "image": "https://img.icons8.com/cotton/50/000000/dog-jump--v1.png"         
     },
     {
-        "name": "Dove",
-        "image": "fas fa-dove"         
+        "name": "Cat",
+        "image": "https://img.icons8.com/cotton/50/000000/cat--v2.png"            
     },
     {
-        "name": "Dragon",
-        "image": "fas fa-dragon"            
+        "name": "Roster",
+        "image": "https://img.icons8.com/cotton/50/000000/screaming-rooster.png"             
     },
     {
-        "name": "Fish",
-        "image": "fas fa-fish"             
+        "name": "Cow",
+        "image": "https://img.icons8.com/cotton/50/000000/cow--v2.png"             
     },
     {
-        "name": "Frog",
-        "image": "fas fa-frog"             
+        "name": "Owl",
+        "image": "https://img.icons8.com/cotton/50/000000/owl--v1.png"               
     },
     {
-        "name": "Kiwi",
-        "image": "fas fa-kiwi-bird"               
+        "name": "Pigeon",
+        "image": "https://img.icons8.com/cotton/50/000000/pigeon--v3.png"             
     },
     {
-        "name": "Frog",
-        "image": "fas fa-frog"             
-    },
-    {
-        "name": "Horse",
-        "image": "fas fa-horse"            
+        "name": "Pig",
+        "image": "https://img.icons8.com/cotton/50/000000/pig--v1.png"            
     },
     {
         "name": "Spider",
-        "image": "fas fa-spider"              
+        "image": "https://img.icons8.com/cotton/50/000000/spider.png"              
     },
     {
-        "name": "Hippo",
-        "image": "fas fa-hippo"              
+        "name": "Octopus",
+        "image": "https://img.icons8.com/cotton/50/000000/octopus.png"              
     }
 ]

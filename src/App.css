@@ -31,8 +31,7 @@ header {
   padding: 10px 0;
 }
 
-i {
-  font-size: 96px;
+img {
   padding: 20px;
   pointer-events: none;
 }
