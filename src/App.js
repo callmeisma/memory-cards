@@ -43,6 +43,12 @@ const App = () => {
         score={score}
         highScore={highScore}
       />
+      <footer>
+        <p>Copyright © Ismael Fernandez</p>
+        <a href="https://github.com/callmeisma/memory-cards" target="_blank">
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+      </footer>
     </div>
   );
 };
